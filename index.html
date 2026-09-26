@@ -6,37 +6,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="site-header">
-      <h1>Мой блог</h1>
-      <nav class="main-nav">
-        <a href="#about">О блоге</a>
-        <a href="#archive">Архив</a>
-      </nav>
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="menu">
+          <a class="logo-link" href="/">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" class="header-logo" alt="логотип ноэми" width="170">
+          </a>
+          <nav class="header-menu">
+            <ul class="menu-list">
+              <li class="menu-list-item">
+                <a class="menu-link" href="/">главная</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">посты</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">статьи</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">теги</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">темы</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <h1 class="welcome-title">Блог о творчестве, спорте, и образе жизни</h1>
+      </div>
     </header>
 
-    <main class="container">
-      <section class="articles-list">
-        <h2>Свежие статьи</h2>
-        <ul class="article-links">
-          <li><a href="post-1.html" class="article-link">Как начать верстать: первые шаги</a></li>
-          <li><a href="post-2.html" class="article-link">CSS: базовые селекторы и отступы</a></li>
-          <li><a href="post-3.html" class="article-link">Работа с изображениями в вебе</a></li>
-        </ul>
-      </section>
-
-      <section id="about">
-        <h3>О блоге</h3>
-        <p>Здесь я делюсь заметками о вёрстке и полезных ссылках.</p>
-      </section>
-
-      <section id="archive">
-        <h3>Архив</h3>
-        <p>Все прошлые статьи можно найти в архиве.</p>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>&copy; 2024 Мой блог. Все права защищены.</p>
-    </footer>
+  
   </body>
 </html>
