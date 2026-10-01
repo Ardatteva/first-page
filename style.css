@@ -116,6 +116,20 @@ margin-left: 20px;
 }
 
 /*MAIN*/
+.section{
+  color: rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+font-family: OpenSans, sans-serif;
+OpenSans, sans-serifbody	
+height: 442px;
+justify-content: center;
+width: 1680px;
+100%
+}
+
+
+
 .main{
   width: 778px;
 }
